@@ -8,8 +8,8 @@ import datetime
 
 #utilise impout pour date de debut et date de fin
 
-tableau = pd.read_csv(r"C:\Users\perso\Documents\GitHub\Projet_TD_EIVP\EIVP_KM.csv", sep = ";")
-#tableau = pd.read_csv(r"EIVP_KM.csv", sep = ";")
+#tableau = pd.read_csv(r"C:\Users\perso\Documents\GitHub\Projet_TD_EIVP\EIVP_KM.csv", sep = ";")
+tableau = pd.read_csv(r"EIVP_KM.csv", sep = ";")
 
 print(tableau)
 saved_column = tableau.column_name
