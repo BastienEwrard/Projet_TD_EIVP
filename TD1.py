@@ -7,8 +7,16 @@ import datetime
 
 # 2 lignes pour le csv, impossible de travailler à deux sur la même ligne, commentaire à déplacer
 
+
 # tableau = pd.read_csv(r"C:\Users\perso\Documents\GitHub\Projet_TD_EIVP\EIVP_KM.csv", sep = ";")
 tableau = pd.read_csv(r"EIVP_KM.csv", sep=";")
+
+#utilise impout pour date de debut et date de fin
+
+#tableau = pd.read_csv(r"C:\Users\perso\Documents\GitHub\Projet_TD_EIVP\EIVP_KM.csv", sep = ";")
+# tableau = pd.read_csv(r"EIVP_KM.csv", sep = ";")
+
+
 print(tableau)
 ##########
 #print(tableau(sent_at))##########probleme######## qui est le meme pour le tout dernier programe
